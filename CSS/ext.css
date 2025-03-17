@@ -1,0 +1,11 @@
+body{
+    background-color: blanchedalmond;
+}
+.external-style {
+    background-color: rgb(255, 235, 224);
+    padding: 10px;
+    border-radius: 5px;
+}
+.something{
+    color: rgb(140, 247, 238);
+}
