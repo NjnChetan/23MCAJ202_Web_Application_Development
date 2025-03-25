@@ -12,3 +12,4 @@ button.addEventListener("click", () => {
     // Move to the next color in the array
     currentIndex = (currentIndex + 1) % colors.length;
 });
+
