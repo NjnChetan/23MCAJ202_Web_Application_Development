@@ -1,9 +1,8 @@
-document.addEventListener('DOMContentLoaded', function () {
-    document.getElementById('submit').addEventListener('click', validate);
-});
+document.getElementById('submit').addEventListener('click', validate);
+
 
 function validate() {
-    
+    //trim is used to get rid of space 
     let email = document.getElementById("email").value.trim();
     let username = document.getElementById("username").value.trim();
     let password = document.getElementById("password").value.trim();

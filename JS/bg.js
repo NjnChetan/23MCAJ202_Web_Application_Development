@@ -1,15 +1,17 @@
-// Array of colors to cycle through
-const colors = ["#ff4757", "#1e90ff", "#2ed573", "#ffa502", "#a55eea", "#ff6b81", "#3742fa"];
+// colors to cycle 
+const colors = ["red", "yellow", "purple", "green", "blue", "orange"];
 let currentIndex = 0;
 
 // Get button and add event listener
-const button = document.querySelector("button");
+    const button = document.querySelector("button");
 
 button.addEventListener("click", () => {
-    // Change background color on button click
+   
+    //change button color
     document.body.style.backgroundColor = colors[currentIndex];
+    button.style.backgroundColor = colors[currentIndex];
     
-    // Move to the next color in the array
+    // Move to the next color 
     currentIndex = (currentIndex + 1) % colors.length;
 });
 
